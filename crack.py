@@ -1,6 +1,8 @@
 import argparse as ap
 import hashlib
 
+#TODO: Add suport for multiple hashes in hash file use threading to run each hash concurrently | 
+
 parser = ap.ArgumentParser(description="A simple password cracker", epilog="After inputing both arguments then run")
 
 parser.add_argument('hashfile', help="Text file containing hash to be cracked.")
