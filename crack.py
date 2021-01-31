@@ -1,11 +1,11 @@
 import argparse as ap
 import hashlib
 
-parser = ap.ArgumentParser(description="A simple password cracker", epilog="After inputing both arguments then run")
+parser = ap.ArgumentParser(description="A simple password cracker")
 
 parser.add_argument('hashfile', help="Text file containing hash to be cracked.")
 
-parser.add_argument('wordlist', help="Path to the desired wordlist")
+parser.add_argument('wordlist', help="path to the desired wordlist")
 
 args = parser.parse_args()
 
@@ -27,7 +27,7 @@ def crackpassword(hash, wordlist):
         hashedline = hashlib.md5(line.encode())
         actualhash = hashedline.hexdigest()
 
-        if str(actualhash) == hash: # ! if the hashes are the same print the password
+        if str(actualhash) == hash:
             print(f'password is {line}')
 
     wordlist.close()
