@@ -1,8 +1,10 @@
 #Crack
+---
 
 Crack is a simple hash md5 hash cracking tool.
 
 ##Technologies
+---
 
 Created with:
 * Python 3.8
@@ -13,6 +15,7 @@ Created with:
 Be sure to install these technologies and libaries before following usage.
 
 ##Usage
+---
 
 Run using python `python crack.py`
 
