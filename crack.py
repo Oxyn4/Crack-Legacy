@@ -67,10 +67,12 @@ def crackpassword(hash, wordlist):
 
     hashfile = open(hash, "r")
 
+    print("By Oxyn4 - use ethically")
+    print("")
     print("cracking " + hash + " with " + wordlist)
     print("")
 
-    time.sleep(0.5)
+    time.sleep(1)
 
     def runhash(hash, wordlist):
 
