@@ -17,7 +17,9 @@ Be sure to install these technologies and libaries before following usage.
 ##Usage
 ---
 
-Run using python `python crack.py`
+Run using python:
+
+`python crack.py`
 
 You will get an error, as two positional arguments need to be specified:
   * File containing the hash
