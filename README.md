@@ -11,6 +11,8 @@ Created with:
   * Argparse
   * Datetime
   * Hashlib
+  * Time
+  * Multiprocessing
 
 Be sure to install these technologies and libaries before following usage.
 
