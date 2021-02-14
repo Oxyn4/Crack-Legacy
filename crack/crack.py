@@ -55,7 +55,7 @@ def crack(hash, wordlist):
 
         for line in wordlist: # ! Iterate through wordlist convert to hash and compare to desired hash
 
-            hashedline = hashlib.md5(line.encode()).hexdigest()
+            hashedline = hashlib.md5(line.encode('utf-8')).hexdigest()
 
             if str(hashedline) == str(hash): # ! if the hashes are the same print the password
                 click.echo("password " + "for " + hash + " is " + line + "finished on " + getdate + " at " + gettime) # ! prints password date and time
