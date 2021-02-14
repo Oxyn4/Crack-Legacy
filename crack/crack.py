@@ -45,7 +45,7 @@ def crack(hash, wordlist):
 
     time.sleep(1)
 
-    def runhash(hash, wordlist, hashtype):
+    def runhash(hash, wordlist):
 
         wordlist = open(wordlist, 'r')
 
