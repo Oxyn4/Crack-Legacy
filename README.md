@@ -15,19 +15,44 @@ Created with:
   * Colorama
   * Multiprocessing
 
-Be sure to install these technologies and libaries before following usage.
+##Installation
+--- 
+
+clone the repo
+'''git clone https://github.com/Oxyn4/crack.git'''
+
+move into the crack directory
+'''cd crack'''
+
+install the dependencies and package 
+'''pip install .'''
+
+Follow the usage commands
 
 ##Usage
 ---
 
-Run using python:
+To use crack simply type:
+'''crack'''
 
-`python3 crack.py`
+you will get an error after entering command as crack requires two arguments
 
-You will get an error, as two positional arguments need to be specified:
-  * File containing the hash
-  * File containing the wordlist
-  
-Specify them by placing the filepaths after Crack.py like so:
+* A text file containg one or more hashes seperated onto different lines with no blank lines
 
-`python crack.py example/path/to/hash.txt example/path/to/wordlist.txt`
+* A wordlist containing potential matches for the password
+
+lets try it with these specified 
+
+'''crack example/path/to/hash.txt example/path/to/wordlist'''
+
+This repo contains a folder which has a hash.txt file and a wordlist.txt file for testing purposes
+
+
+
+
+
+
+
+
+
+
