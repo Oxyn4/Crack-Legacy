@@ -19,13 +19,13 @@ Created with:
 --- 
 
 clone the repo
-'''git clone https://github.com/Oxyn4/crack.git'''
+```git clone https://github.com/Oxyn4/crack.git```
 
 move into the crack directory
-'''cd crack'''
+```cd crack```
 
 install the dependencies and package 
-'''pip install .'''
+```pip install .```
 
 Follow the usage commands
 
@@ -33,7 +33,7 @@ Follow the usage commands
 ---
 
 To use crack simply type:
-'''crack'''
+```crack```
 
 you will get an error after entering command as crack requires two arguments
 
@@ -43,7 +43,7 @@ you will get an error after entering command as crack requires two arguments
 
 lets try it with these specified 
 
-'''crack example/path/to/hash.txt example/path/to/wordlist'''
+```crack example/path/to/hash.txt example/path/to/wordlist```
 
 This repo contains a folder which has a hash.txt file and a wordlist.txt file for testing purposes
 
