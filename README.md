@@ -25,7 +25,7 @@ move into the crack directory
 ```cd crack```
 
 install the dependencies and package 
-```pip install .```
+```pip install -e .```
 
 Follow the usage commands
 
