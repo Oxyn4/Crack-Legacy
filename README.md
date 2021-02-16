@@ -32,6 +32,9 @@ Follow the usage commands
 ##Usage
 ---
 
+Before using understand i dont take responsibility for how you use this tool, 
+it should only be used ethicaly and for research or testing security (with permission).
+
 To use crack simply type:
 ```crack```
 
