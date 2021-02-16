@@ -33,7 +33,7 @@ Follow the usage commands
 ---
 
 Before using understand i dont take responsibility for how you use this tool, 
-it should only be used ethicaly and for research or testing security (with permission).
+it should only be used ethicaly and for researching or testing security ( on systems you have permission to test).
 
 To use crack simply type:
 ```crack```
